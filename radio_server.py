@@ -11,7 +11,7 @@ except ImportError as e:
     print e
     sys.exit(1)
     
-
+#global variablles
 CLIENT_LIST = []
 CHUNK = (441 * 6 + 150)
 AUDIO_FORMAT = ['mp3','flv','ogg','wav']
